@@ -1,0 +1,10 @@
+Placa utilizada: ESP32-S2 MINI-1
+Sensor: YL-83 – Sensor de Vazamento de Água
+Atuador: Buzzer Piezoelétrico
+Conexões:
+- YL-83 VCC → 3.3V ESP32
+- YL-83 GND → GND ESP32
+- YL-83 OUT → GPIO 13
+- Buzzer + → GPIO 12
+- Buzzer - → GND
+Comunicação: Wi-Fi (TCP/IP) com protocolo MQTT (broker HiveMQ)
